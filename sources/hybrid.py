@@ -17,7 +17,7 @@ import multiprocessing
 import greedy_ant
 import matplotlib.pyplot as plt
 
-cross_interval = 600
+cross_interval = 3600
 def hybrid_callback(model, where):
     if where == GRB.Callback.MIP:
         model._shared_dict['objval'] = min(round(model.cbGet(GRB.Callback.MIP_OBJBST)),
@@ -170,7 +170,7 @@ class MProblem(object):
             for t, r in shared_dict['init_asmt']:
                 self.x_jk[t, r].start = 1
             if with_knapsack_cut:
-                # self.m.addConstr(self.t_e[self.des_node] <= round(shared_dict['objval']))
+                self.m.addConstr(self.t_e[self.des_node] <= round(shared_dict['objval']) - 1)
                 self.update_DL(round(shared_dict['objval']))
                 self.knapsack_cut()
 

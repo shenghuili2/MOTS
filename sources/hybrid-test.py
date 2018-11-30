@@ -61,14 +61,14 @@ def main():
         
         #print('no offloading nodes:', noff_nodes)
         #print('local offloading nodes:', localoff_nodes)
-        tl = 3600
+        tl = 7200
 
 
 
         ts = time.time()
         # result,_ = lb, _ = greedy_ant.greedy_ant(dag, platform, 40)
-        result, lb = hybrid.ilp(dag, platform, tl=tl)
-        # result, lb = hybrid.hybrid(dag, platform, tl=tl, with_ilp=True)
+        # result, lb = hybrid.ilp(dag, platform, tl=tl)
+        result, lb = hybrid.hybrid(dag, platform, tl=tl, with_ilp=True)
         # result, lb = hybrid.hybrid(dag, platform, tl=tl, with_ilp=False)
         # result = lbbd.lbbd(dag,  platform)
         # result = lb = greedy.greedy(dag, platform)
