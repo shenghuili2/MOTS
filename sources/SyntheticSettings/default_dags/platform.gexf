@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="bandwidth" type="long" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>23/11/2018</lastmodified>
+    </meta>
+    <nodes>
+      <node id="Core1" label="Core1" />
+      <node id="Core2" label="Core2" />
+      <node id="Core3" label="Core3" />
+      <node id="Core4" label="Core4" />
+      <node id="Core5" label="Core5" />
+      <node id="Core6" label="Core6" />
+    </nodes>
+    <edges>
+      <edge id="0" source="Core1" target="Core2">
+        <attvalues>
+          <attvalue for="0" value="80" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="Core1" target="Core3">
+        <attvalues>
+          <attvalue for="0" value="134" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="Core1" target="Core4">
+        <attvalues>
+          <attvalue for="0" value="141" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="Core1" target="Core5">
+        <attvalues>
+          <attvalue for="0" value="104" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="Core1" target="Core6">
+        <attvalues>
+          <attvalue for="0" value="20" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="Core2" target="Core3">
+        <attvalues>
+          <attvalue for="0" value="150" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="Core2" target="Core4">
+        <attvalues>
+          <attvalue for="0" value="157" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="Core2" target="Core5">
+        <attvalues>
+          <attvalue for="0" value="92" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="Core2" target="Core6">
+        <attvalues>
+          <attvalue for="0" value="20" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="Core3" target="Core4">
+        <attvalues>
+          <attvalue for="0" value="91" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="Core3" target="Core5">
+        <attvalues>
+          <attvalue for="0" value="131" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="Core3" target="Core6">
+        <attvalues>
+          <attvalue for="0" value="20" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="Core4" target="Core5">
+        <attvalues>
+          <attvalue for="0" value="139" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="Core4" target="Core6">
+        <attvalues>
+          <attvalue for="0" value="20" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="Core5" target="Core6">
+        <attvalues>
+          <attvalue for="0" value="20" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

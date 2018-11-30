@@ -1,0 +1,32 @@
+
+makespan =  [721, 719, 677, 687, 699, 719, 720, 685, 732, 684]
+time_cost =  [900, 900, 900, 900, 900, 900, 900, 900, 900, 900]
+gap =  [0.40198, 0.43877, 0.40272, 0.4157, 0.41164, 0.3747, 0.3834, 0.37352, 0.42428, 0.38686]
+[721, 719, 677, 687, 699, 719, 720, 685, 732, 684]
+
+greedy-ant
+makespan =  [746, 751, 699, 684, 703, 721, 737, 690, 713]
+time_cost =  [200, 200, 200, 200, 200, 200, 200, 200, 200]
+gap =  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+https://www.gurobi.com/documentation/8.0/examples/callback_py.html
+
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+F1126 13:34:47.001260 14344 cp_model_solver.cc:2774] Check failed: SolutionIsFeasible(model_proto, std::vector<int64>(response->solution().begin(), response->solution().end())) 
+*** Check failure stack trace: ***
+
+Logging before InitGoogleLogging() is written to STDERR
+
+
+
+
+
+
+
+makespan =  [926, 871, 934, 870, 828, 816, 807, 870, 874, 794]
+time_cost =  [2, 2, 3, 5, 9, 155, 14, 165, 762, 545]
+gap =  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+makespan =  [926, 871, 934, 870, 828, 816, 807, 870, 874, 794]
+time_cost =  [10, 10, 11, 10, 11, 46, 11, 41, 108, 72]
+gap =  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]

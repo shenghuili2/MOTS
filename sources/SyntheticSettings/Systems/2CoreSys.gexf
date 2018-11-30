@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="bandwidth" type="long" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>02/10/2018</lastmodified>
+    </meta>
+    <nodes>
+      <node id="Core1" label="Core1" />
+      <node id="Core2" label="Core2" />
+    </nodes>
+    <edges>
+      <edge id="0" source="Core1" target="Core2">
+        <attvalues>
+          <attvalue for="0" value="8" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

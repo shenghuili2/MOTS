@@ -1,0 +1,660 @@
+
+Task 1 {
+	Core 1 : delay 34
+	Core 2 : delay 28
+	Core 3 : delay 21
+	Core 4 : delay 27
+	Core 5 : delay 31
+	}
+
+Task 2 {
+	Core 1 : delay 22
+	Core 2 : delay 29
+	Core 3 : delay 40
+	Core 4 : delay 37
+	Core 5 : delay 31
+	}
+
+Task 3 {
+	Core 1 : delay 27
+	Core 2 : delay 36
+	Core 3 : delay 29
+	Core 4 : delay 22
+	Core 5 : delay 38
+	}
+
+Task 4 {
+	Core 1 : delay 24
+	Core 2 : delay 39
+	Core 3 : delay 40
+	Core 4 : delay 36
+	Core 5 : delay 34
+	}
+
+Task 5 {
+	Core 1 : delay 34
+	Core 2 : delay 33
+	Core 3 : delay 31
+	Core 4 : delay 31
+	Core 5 : delay 39
+	}
+
+Task 6 {
+	Core 1 : delay 31
+	Core 2 : delay 20
+	Core 3 : delay 40
+	Core 4 : delay 31
+	Core 5 : delay 36
+	}
+
+Task 7 {
+	Core 1 : delay 29
+	Core 2 : delay 30
+	Core 3 : delay 26
+	Core 4 : delay 23
+	Core 5 : delay 37
+	}
+
+Task 8 {
+	Core 1 : delay 20
+	Core 2 : delay 40
+	Core 3 : delay 29
+	Core 4 : delay 28
+	Core 5 : delay 36
+	}
+
+Task 9 {
+	Core 1 : delay 25
+	Core 2 : delay 23
+	Core 3 : delay 21
+	Core 4 : delay 33
+	Core 5 : delay 24
+	}
+
+Task 10 {
+	Core 1 : delay 36
+	Core 2 : delay 21
+	Core 3 : delay 27
+	Core 4 : delay 20
+	Core 5 : delay 20
+	}
+
+Task 11 {
+	Core 1 : delay 28
+	Core 2 : delay 21
+	Core 3 : delay 25
+	Core 4 : delay 27
+	Core 5 : delay 27
+	}
+
+Task 12 {
+	Core 1 : delay 23
+	Core 2 : delay 21
+	Core 3 : delay 26
+	Core 4 : delay 24
+	Core 5 : delay 32
+	}
+
+Task 13 {
+	Core 1 : delay 20
+	Core 2 : delay 24
+	Core 3 : delay 40
+	Core 4 : delay 27
+	Core 5 : delay 31
+	}
+
+Task 14 {
+	Core 1 : delay 40
+	Core 2 : delay 31
+	Core 3 : delay 29
+	Core 4 : delay 31
+	Core 5 : delay 26
+	}
+
+Task 15 {
+	Core 1 : delay 39
+	Core 2 : delay 36
+	Core 3 : delay 27
+	Core 4 : delay 38
+	Core 5 : delay 25
+	}
+
+Task 16 {
+	Core 1 : delay 23
+	Core 2 : delay 40
+	Core 3 : delay 37
+	Core 4 : delay 33
+	Core 5 : delay 25
+	}
+
+Task 17 {
+	Core 1 : delay 21
+	Core 2 : delay 29
+	Core 3 : delay 36
+	Core 4 : delay 38
+	Core 5 : delay 35
+	}
+
+Task 18 {
+	Core 1 : delay 26
+	Core 2 : delay 21
+	Core 3 : delay 30
+	Core 4 : delay 34
+	Core 5 : delay 31
+	}
+
+Task 19 {
+	Core 1 : delay 21
+	Core 2 : delay 39
+	Core 3 : delay 40
+	Core 4 : delay 26
+	Core 5 : delay 20
+	}
+
+Task 20 {
+	Core 1 : delay 35
+	Core 2 : delay 21
+	Core 3 : delay 23
+	Core 4 : delay 30
+	Core 5 : delay 32
+	}
+
+Edge 1 {
+	source 1
+	target 11
+	}
+
+Edge 2 {
+	source 1
+	target 12
+	}
+
+Edge 3 {
+	source 1
+	target 13
+	}
+
+Edge 4 {
+	source 1
+	target 14
+	}
+
+Edge 5 {
+	source 1
+	target 15
+	}
+
+Edge 6 {
+	source 1
+	target 16
+	}
+
+Edge 7 {
+	source 1
+	target 17
+	}
+
+Edge 8 {
+	source 1
+	target 18
+	}
+
+Edge 9 {
+	source 1
+	target 19
+	}
+
+Edge 10 {
+	source 1
+	target 20
+	}
+
+Edge 11 {
+	source 2
+	target 11
+	}
+
+Edge 12 {
+	source 2
+	target 12
+	}
+
+Edge 13 {
+	source 2
+	target 13
+	}
+
+Edge 14 {
+	source 2
+	target 14
+	}
+
+Edge 15 {
+	source 2
+	target 15
+	}
+
+Edge 16 {
+	source 2
+	target 16
+	}
+
+Edge 17 {
+	source 2
+	target 17
+	}
+
+Edge 18 {
+	source 2
+	target 18
+	}
+
+Edge 19 {
+	source 2
+	target 19
+	}
+
+Edge 20 {
+	source 2
+	target 20
+	}
+
+Edge 21 {
+	source 3
+	target 11
+	}
+
+Edge 22 {
+	source 3
+	target 12
+	}
+
+Edge 23 {
+	source 3
+	target 13
+	}
+
+Edge 24 {
+	source 3
+	target 14
+	}
+
+Edge 25 {
+	source 3
+	target 15
+	}
+
+Edge 26 {
+	source 3
+	target 16
+	}
+
+Edge 27 {
+	source 3
+	target 17
+	}
+
+Edge 28 {
+	source 3
+	target 18
+	}
+
+Edge 29 {
+	source 3
+	target 19
+	}
+
+Edge 30 {
+	source 3
+	target 20
+	}
+
+Edge 31 {
+	source 4
+	target 11
+	}
+
+Edge 32 {
+	source 4
+	target 12
+	}
+
+Edge 33 {
+	source 4
+	target 13
+	}
+
+Edge 34 {
+	source 4
+	target 14
+	}
+
+Edge 35 {
+	source 4
+	target 15
+	}
+
+Edge 36 {
+	source 4
+	target 16
+	}
+
+Edge 37 {
+	source 4
+	target 17
+	}
+
+Edge 38 {
+	source 4
+	target 18
+	}
+
+Edge 39 {
+	source 4
+	target 19
+	}
+
+Edge 40 {
+	source 4
+	target 20
+	}
+
+Edge 41 {
+	source 5
+	target 11
+	}
+
+Edge 42 {
+	source 5
+	target 12
+	}
+
+Edge 43 {
+	source 5
+	target 13
+	}
+
+Edge 44 {
+	source 5
+	target 14
+	}
+
+Edge 45 {
+	source 5
+	target 15
+	}
+
+Edge 46 {
+	source 5
+	target 16
+	}
+
+Edge 47 {
+	source 5
+	target 17
+	}
+
+Edge 48 {
+	source 5
+	target 18
+	}
+
+Edge 49 {
+	source 5
+	target 19
+	}
+
+Edge 50 {
+	source 5
+	target 20
+	}
+
+Edge 51 {
+	source 6
+	target 11
+	}
+
+Edge 52 {
+	source 6
+	target 12
+	}
+
+Edge 53 {
+	source 6
+	target 13
+	}
+
+Edge 54 {
+	source 6
+	target 14
+	}
+
+Edge 55 {
+	source 6
+	target 15
+	}
+
+Edge 56 {
+	source 6
+	target 16
+	}
+
+Edge 57 {
+	source 6
+	target 17
+	}
+
+Edge 58 {
+	source 6
+	target 18
+	}
+
+Edge 59 {
+	source 6
+	target 19
+	}
+
+Edge 60 {
+	source 6
+	target 20
+	}
+
+Edge 61 {
+	source 7
+	target 11
+	}
+
+Edge 62 {
+	source 7
+	target 12
+	}
+
+Edge 63 {
+	source 7
+	target 13
+	}
+
+Edge 64 {
+	source 7
+	target 14
+	}
+
+Edge 65 {
+	source 7
+	target 15
+	}
+
+Edge 66 {
+	source 7
+	target 16
+	}
+
+Edge 67 {
+	source 7
+	target 17
+	}
+
+Edge 68 {
+	source 7
+	target 18
+	}
+
+Edge 69 {
+	source 7
+	target 19
+	}
+
+Edge 70 {
+	source 7
+	target 20
+	}
+
+Edge 71 {
+	source 8
+	target 11
+	}
+
+Edge 72 {
+	source 8
+	target 12
+	}
+
+Edge 73 {
+	source 8
+	target 13
+	}
+
+Edge 74 {
+	source 8
+	target 14
+	}
+
+Edge 75 {
+	source 8
+	target 15
+	}
+
+Edge 76 {
+	source 8
+	target 16
+	}
+
+Edge 77 {
+	source 8
+	target 17
+	}
+
+Edge 78 {
+	source 8
+	target 18
+	}
+
+Edge 79 {
+	source 8
+	target 19
+	}
+
+Edge 80 {
+	source 8
+	target 20
+	}
+
+Edge 81 {
+	source 9
+	target 11
+	}
+
+Edge 82 {
+	source 9
+	target 12
+	}
+
+Edge 83 {
+	source 9
+	target 13
+	}
+
+Edge 84 {
+	source 9
+	target 14
+	}
+
+Edge 85 {
+	source 9
+	target 15
+	}
+
+Edge 86 {
+	source 9
+	target 16
+	}
+
+Edge 87 {
+	source 9
+	target 17
+	}
+
+Edge 88 {
+	source 9
+	target 18
+	}
+
+Edge 89 {
+	source 9
+	target 19
+	}
+
+Edge 90 {
+	source 9
+	target 20
+	}
+
+Edge 91 {
+	source 10
+	target 11
+	}
+
+Edge 92 {
+	source 10
+	target 12
+	}
+
+Edge 93 {
+	source 10
+	target 13
+	}
+
+Edge 94 {
+	source 10
+	target 14
+	}
+
+Edge 95 {
+	source 10
+	target 15
+	}
+
+Edge 96 {
+	source 10
+	target 16
+	}
+
+Edge 97 {
+	source 10
+	target 17
+	}
+
+Edge 98 {
+	source 10
+	target 18
+	}
+
+Edge 99 {
+	source 10
+	target 19
+	}
+
+Edge 100 {
+	source 10
+	target 20
+	}
