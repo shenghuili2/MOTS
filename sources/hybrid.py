@@ -17,7 +17,7 @@ import multiprocessing
 import greedy_ant
 import matplotlib.pyplot as plt
 
-cross_interval = 3600
+cross_interval = 600
 def hybrid_callback(model, where):
     if where == GRB.Callback.MIP:
         model._shared_dict['objval'] = min(round(model.cbGet(GRB.Callback.MIP_OBJBST)),
@@ -1048,7 +1048,7 @@ def lbbd(wf, crs, shared_dict, tl=3600, ub=10000, covercut_queue=None):
             m_sub.set_task_placement(k)
 
     # z = m_sub.cp_satoptimize()
-    z = m_sub.cp_satoptim()
+    z = m_sub.cp_satoptim(ub)
     z_best = min(z, z_best)
 
     # edited by cyf

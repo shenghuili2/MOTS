@@ -13,14 +13,14 @@ import random
 
 
 def main():
-    num_nodes, dag =50, 6
+    num_nodes, dag =20, 1
 
 
     result_list = []
     time_list = []
     iter_list = []
     gap_list = []
-    for i in range(dag, dag+5):
+    for i in range(dag, dag+10):
         workflow_path = './SyntheticSettings/default_dags/%d_nodes/dag_%d.gexf'%(num_nodes, i)
         system_path = './SyntheticSettings/default_dags/platform.gexf'
 
@@ -47,7 +47,7 @@ def main():
             # dag.node[nd]['Core6'] = dag.node[nd]['Core1'] // 5
         
         nooff_rate, localoff_rate = 0, 0
-        noff_nodes = random.Random(500).sample(dag.nodes(), round(dag.number_of_nodes()*nooff_rate))
+        noff_nodes = random.Random(401).sample(dag.nodes(), round(dag.number_of_nodes()*nooff_rate))
         localoff_nodes = random.Random(500).sample([i for i in dag.nodes() if not i in noff_nodes],
                                                    round(dag.number_of_nodes()*localoff_rate))
         for t in noff_nodes:
@@ -61,14 +61,14 @@ def main():
         
         #print('no offloading nodes:', noff_nodes)
         #print('local offloading nodes:', localoff_nodes)
-        tl = 7200
+        tl = 3600
 
 
 
         ts = time.time()
         # result,_ = lb, _ = greedy_ant.greedy_ant(dag, platform, 40)
-        # result, lb = hybrid.ilp(dag, platform, tl=tl)
-        result, lb = hybrid.hybrid(dag, platform, tl=tl, with_ilp=True)
+        result, lb = hybrid.ilp(dag, platform, tl=tl)
+        # result, lb = hybrid.hybrid(dag, platform, tl=tl, with_ilp=True)
         # result, lb = hybrid.hybrid(dag, platform, tl=tl, with_ilp=False)
         # result = lbbd.lbbd(dag,  platform)
         # result = lb = greedy.greedy(dag, platform)
