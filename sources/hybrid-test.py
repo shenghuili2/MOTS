@@ -13,14 +13,14 @@ import random
 
 
 def main():
-    num_nodes, dag =20, 1
+    num_nodes, dag =50, 4
 
 
     result_list = []
     time_list = []
     iter_list = []
     gap_list = []
-    for i in range(dag, dag+10):
+    for i in range(dag, dag+7):
         workflow_path = './SyntheticSettings/default_dags/%d_nodes/dag_%d.gexf'%(num_nodes, i)
         system_path = './SyntheticSettings/default_dags/platform.gexf'
 
