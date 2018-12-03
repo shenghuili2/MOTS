@@ -17,7 +17,7 @@ import multiprocessing
 import greedy_ant
 import matplotlib.pyplot as plt
 
-cross_interval = 600
+cross_interval = 300
 def hybrid_callback(model, where):
     if where == GRB.Callback.MIP:
         model._shared_dict['objval'] = min(round(model.cbGet(GRB.Callback.MIP_OBJBST)),
@@ -730,7 +730,7 @@ class SCProblem(object):
 
         # Job Shop Scheduling
         # Variables
-        horizon = 300000000
+        horizon = 300000
         all_tasks = {}
         for id in self.t_s.keys():
             core = self.tsk_placement[id]

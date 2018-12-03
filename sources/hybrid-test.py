@@ -13,14 +13,14 @@ import random
 
 
 def main():
-    num_nodes, dag =20, 1
+    num_nodes, dag =50, 4
 
 
     result_list = []
     time_list = []
     iter_list = []
     gap_list = []
-    for i in range(dag, dag+10):
+    for i in range(dag, dag+7):
         workflow_path = './SyntheticSettings/default_dags/%d_nodes/dag_%d.gexf'%(num_nodes, i)
         system_path = './SyntheticSettings/default_dags/platform.gexf'
 
@@ -46,7 +46,7 @@ def main():
             pass
             # dag.node[nd]['Core6'] = dag.node[nd]['Core1'] // 5
         
-        nooff_rate, localoff_rate = 0, 0
+        nooff_rate, localoff_rate = 0.05, 0
         noff_nodes = random.Random(401).sample(dag.nodes(), round(dag.number_of_nodes()*nooff_rate))
         localoff_nodes = random.Random(500).sample([i for i in dag.nodes() if not i in noff_nodes],
                                                    round(dag.number_of_nodes()*localoff_rate))
