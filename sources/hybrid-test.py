@@ -46,7 +46,7 @@ def main():
             pass
             # dag.node[nd]['Core6'] = dag.node[nd]['Core1'] // 5
         
-        nooff_rate, localoff_rate = 0.05, 0
+        nooff_rate, localoff_rate = 0, 0
         noff_nodes = random.Random(401).sample(dag.nodes(), round(dag.number_of_nodes()*nooff_rate))
         localoff_nodes = random.Random(500).sample([i for i in dag.nodes() if not i in noff_nodes],
                                                    round(dag.number_of_nodes()*localoff_rate))
