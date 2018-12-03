@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8621f44d-f2f8-43f9-8707-d61a89ad47e5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Untitled2-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Untitled2-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SyntheticSettings/default_dags/20_nodes/dag_10.gexf" beforeDir="false" afterPath="$PROJECT_DIR$/SyntheticSettings/default_dags/20_nodes/dag_10.gexf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SyntheticSettings/default_dags/20_nodes/dag_6.gexf" beforeDir="false" afterPath="$PROJECT_DIR$/SyntheticSettings/default_dags/20_nodes/dag_6.gexf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Untitled2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Untitled2.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gurobi.log" beforeDir="false" afterPath="$PROJECT_DIR$/gurobi.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hybrid-test.py" beforeDir="false" afterPath="$PROJECT_DIR$/hybrid-test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hybrid.py" beforeDir="false" afterPath="$PROJECT_DIR$/hybrid.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/master.lp" beforeDir="false" afterPath="$PROJECT_DIR$/master.lp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -199,7 +192,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1431694" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
